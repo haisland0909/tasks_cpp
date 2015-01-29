@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{09C6A108-F7E6-4939-86CF-3D207DF0D587}</ProjectGuid>
-    <RootNamespace>Section1</RootNamespace>
-    <ProjectName>1-1</ProjectName>
+    <ProjectGuid>{FB6F3BCE-5AD8-4391-8FE0-2936CDF4CE52}</ProjectGuid>
+    <RootNamespace>My12</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,10 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <Text Include="..\..\..\tasks_c_cpp\c\1\2\task.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Task.txt" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
