@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="..\..\..\tasks_c_cpp\c\1\2\task.txt" />
+    <Text Include="task.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

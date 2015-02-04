@@ -2,7 +2,10 @@
 using namespace std;
 
 int main() {
-    cout << "天\n地\n人\n" << endl;
+    int no;
+    cout << "整数入力してください。" << endl;
+    cin >> no;
+    cout << no << "に6を減じると" << no - 6 << "です。" << endl;
 
     return 0;
 }

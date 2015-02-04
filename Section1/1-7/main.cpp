@@ -2,9 +2,7 @@
 using namespace std;
 
 int main() {
-    int no = 3.5;
-
-    cout << no << "です。" << endl;
+    cout << "天\n地\n人\n" << endl;
 
     return 0;
 }

@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\tasks_c_cpp\c\1\5\task.txt" />
+    <Text Include="task.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\1-4\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
