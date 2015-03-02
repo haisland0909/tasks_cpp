@@ -15,14 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
+    <ClInclude Include="InputTemplate.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Section2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="task.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Common\Common.vcxproj.filters" />
+    <None Include="..\2-1\2-1.vcxproj.filters" />
   </ItemGroup>
 </Project>
