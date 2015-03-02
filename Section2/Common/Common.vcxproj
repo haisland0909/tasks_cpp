@@ -65,18 +65,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="InputTempalte.h" />
-    <ClInclude Include="Section2.h" />
+    <None Include="..\2-1\2-1.vcxproj.filters" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\2-1\2-1.vcxproj.filters" />
+    <ClInclude Include="..\2-1\Problem1.h" />
+    <ClInclude Include="InputTemplate.h" />
+    <ClInclude Include="Section2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties ProjectLinkReference="7b840567-434d-4fa1-9403-0724be52ccaf" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

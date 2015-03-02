@@ -3,23 +3,25 @@
 #include <iostream>
 #include <typeinfo>
 
+enum type {
+    INT,
+    DOUBLE,
+    OTHER
+};
+
 template<typename T = int> class Input {
 private:
     T value;
-    enum type {
-        INT,
-        DOUBLE,
-        OTHER
-    };
-    type checkType() const;
+    
+    type checkType();
 
 public:
-    void set();
-    T get() const;
+    bool set();
+    T get();
 
 };
 
-template <typename T> type Input<T>::checkType() const {
+template <typename T> type Input<T>::checkType() {
     if (typeid(int) == typeid(value)) {
 
         return INT;
@@ -32,12 +34,12 @@ template <typename T> type Input<T>::checkType() const {
     return OTHER;
 }
 
-template <typename T> T Input<T>::get() const {
+template <typename T> T Input<T>::get() {
     return value;
 }
 
 template <typename T> bool Input<T>::set()  {
-    swicth(checkType()){
+    switch (checkType()) {
         case INT:
             std::cout << "®”‚ð";
             break;
@@ -50,7 +52,7 @@ template <typename T> bool Input<T>::set()  {
     std::cout << "“ü—Í‚µ‚Ä‚­‚¾‚³‚¢" << std::endl;
     std::cin >> value;
 
-    return value > 0 || value < 0;
+    return value == 0;
 }
 
 

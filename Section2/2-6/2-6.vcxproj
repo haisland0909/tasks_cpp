@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7B840567-434D-4FA1-9403-0724BE52CCAF}</ProjectGuid>
-    <RootNamespace>_2_1</RootNamespace>
+    <ProjectGuid>{013DD52A-68BF-4BA5-83B4-E6DA1FE32F2F}</ProjectGuid>
+    <RootNamespace>_2_6</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -68,15 +68,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="task.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\2-1\2-1.vcxproj.filters" />
     <None Include="..\Common\Common.vcxproj.filters" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Common\InputTemplate.h" />
-    <ClInclude Include="..\Common\Section2.h" />
-    <ClInclude Include="Problem1.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="task.txt" />
+    <ClInclude Include="Problem6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

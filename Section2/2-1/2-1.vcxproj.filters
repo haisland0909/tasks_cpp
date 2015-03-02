@@ -20,9 +20,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="task.txt" />
+    <None Include="..\Common\Common.vcxproj.filters" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Common\Common.vcxproj.filters" />
+    <ClInclude Include="..\Common\InputTemplate.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Section2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem1.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="task.txt" />
   </ItemGroup>
 </Project>
